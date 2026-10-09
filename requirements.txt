@@ -1,0 +1,48 @@
+# =============================================================================
+# 23CSE301 Machine Learning — Capstone Project (Review 1)
+# Python dependencies
+# =============================================================================
+#
+# Install with:
+#     pip install -r requirements.txt
+#
+# These are the exact versions the submitted notebooks were executed with.
+# If you hit a version conflict on your machine, the project does not rely on
+# anything version-specific: any recent release of these libraries will run it.
+# Relax a pin by changing '==' to '>=' for the offending package.
+#
+# Python 3.10 or newer is required (3.12 was used).
+# -----------------------------------------------------------------------------
+
+# --- Core scientific stack ---------------------------------------------------
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+
+# --- Machine learning --------------------------------------------------------
+scikit-learn==1.8.0
+joblib==1.5.3          # saving models and passing artifacts between notebooks
+
+# --- Visualisation -----------------------------------------------------------
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# --- Notebook environment ----------------------------------------------------
+# Needed to open and run the .ipynb files. Skip these if you already have
+# Jupyter installed, or if you are running the notebooks inside VS Code with
+# the Python and Jupyter extensions.
+jupyterlab>=4.0
+notebook>=7.0
+ipykernel>=6.29
+
+# -----------------------------------------------------------------------------
+# Deliberately NOT required:
+#
+#   statsmodels  - the EDA uses a pandas-based binned-mean trend line instead
+#                  of a LOWESS smoother, to keep the dependency list minimal.
+#   xgboost      - sklearn's GradientBoostingRegressor covers the boosting
+#                  family for Review 1. XGBoost/LightGBM are listed as a
+#                  Review 2 improvement.
+#   imbalanced-learn (SMOTE) - the 3.18:1 class imbalance is moderate, and
+#                  Notebook 11 sec 3.5 explains why resampling was not applied.
+# -----------------------------------------------------------------------------

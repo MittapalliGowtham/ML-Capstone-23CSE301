@@ -1,0 +1,6 @@
+Model,TN,FP,FN,TP,Total errors,FP rate %,FN rate %,High earners found %
+Logistic Regression,6958,473,905,1433,1378,6.37,38.71,61.29
+Support Vector Classifier,7028,403,973,1365,1376,5.42,41.62,58.38
+K-Nearest Neighbors,6755,676,877,1461,1553,9.1,37.51,62.49
+Decision Tree,6612,819,876,1462,1695,11.02,37.47,62.53
+Gaussian Naive Bayes,4436,2995,178,2160,3173,40.3,7.61,92.39

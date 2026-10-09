@@ -1,0 +1,16 @@
+Column,Dtype,Missing,Missing %,Unique,Example value
+age,int64,0,0.0,74,39
+workclass,str,2799,5.731,8,State-gov
+fnlwgt,int64,0,0.0,28523,77516
+education,str,0,0.0,16,Bachelors
+education-num,int64,0,0.0,16,13
+marital-status,str,0,0.0,7,Never-married
+occupation,str,2809,5.751,14,Adm-clerical
+relationship,str,0,0.0,6,Not-in-family
+race,str,0,0.0,5,White
+sex,str,0,0.0,2,Male
+capital-gain,int64,0,0.0,123,2174
+capital-loss,int64,0,0.0,99,0
+hours-per-week,int64,0,0.0,96,40
+native-country,str,857,1.755,41,United-States
+income,str,0,0.0,2,<=50K

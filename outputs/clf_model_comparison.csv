@@ -1,0 +1,6 @@
+Rank,Model,Accuracy,Weighted F1
+1,Logistic Regression,0.8589,0.8538
+2,Support Vector Classifier,0.8591,0.852
+3,K-Nearest Neighbors,0.841,0.8385
+4,Decision Tree,0.8265,0.8258
+5,Gaussian Naive Bayes,0.6752,0.6983

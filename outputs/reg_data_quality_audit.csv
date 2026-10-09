@@ -1,0 +1,15 @@
+Column,Dtype,Missing,Missing %,Unique,Example value
+Date,str,0,0.0,365,01/12/2017
+Rented Bike Count,int64,0,0.0,2166,254
+Hour,int64,0,0.0,24,0
+Temperature(°C),float64,0,0.0,546,-5.2
+Humidity(%),int64,0,0.0,90,37
+Wind speed (m/s),float64,0,0.0,65,2.2
+Visibility (10m),int64,0,0.0,1789,2000
+Dew point temperature(°C),float64,0,0.0,556,-17.6
+Solar Radiation (MJ/m2),float64,0,0.0,345,0.0
+Rainfall(mm),float64,0,0.0,61,0.0
+Snowfall (cm),float64,0,0.0,51,0.0
+Seasons,str,0,0.0,4,Winter
+Holiday,str,0,0.0,2,No Holiday
+Functioning Day,str,0,0.0,2,Yes

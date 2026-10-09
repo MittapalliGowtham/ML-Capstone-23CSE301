@@ -1,0 +1,11 @@
+Rank,Model,R2,RMSE,MAE
+1,Random Forest Regressor,0.9236,173.193,92.4491
+2,Gradient Boosting Regressor,0.8964,201.6991,129.9858
+3,Polynomial Regression (degree 2),0.8843,213.1268,143.1925
+4,Decision Tree Regressor,0.856,237.7507,126.6929
+5,KNN Regressor,0.8513,241.655,146.9764
+6,Lasso Regression,0.7108,336.9498,254.9703
+7,Ridge Regression,0.71,337.3982,255.685
+8,Linear Regression,0.71,337.4209,255.7086
+9,ElasticNet Regression,0.6575,366.6891,272.4767
+10,Support Vector Regressor (SVR),0.3738,495.8196,331.7814

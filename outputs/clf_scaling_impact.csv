@@ -1,0 +1,4 @@
+Model,Weighted F1 WITH scaling,Weighted F1 WITHOUT scaling,Change
+Logistic Regression,0.8538,0.853,-0.0008
+K-Nearest Neighbors,0.8385,0.848,0.0095
+Decision Tree,0.8258,0.8251,-0.0007
